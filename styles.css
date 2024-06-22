@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* Fuente principal para todo el texto */
     margin: 0;
     padding: 0;
     background-color: #fff0f5;
+    color: #333; /* Color de texto principal */
 }
 
 header {
@@ -12,12 +13,13 @@ header {
 }
 
 h1 {
-    color: #ffc0cb; /* Rosa claro para el título principal */
-    margin-bottom: 0; /* Evita el espacio entre el título y la navegación */
+    font-family: 'Arial Black', sans-serif; /* Fuente para el título principal */
+    color: #ff69b4; /* Rosa más claro para el título principal */
+    margin-bottom: 0;
 }
 
 nav {
-    background-color: #ffc0cb; /* Fondo rosa claro para la barra de navegación */
+    background-color: #e75480;
     padding: 10px 0;
 }
 
