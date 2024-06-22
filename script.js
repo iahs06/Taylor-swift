@@ -1,5 +1,5 @@
 // Contador de visitas (usando localStorage)
-let visitas = 0 localStorage.setItem('visitas', visitas); || 0;
+let visitas = 0; localStorage.setItem('visitas', visitas); || 0;
 visitas++;
 localStorage.setItem('visitas', visitas);
 document.getElementById('contador-visitas').textContent = visitas;
