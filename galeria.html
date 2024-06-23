@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taylor Swift - Galería</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery img {
+            width: 200px; /* Ajusta el tamaño según sea necesario */
+            height: 300px; /* Ajusta el tamaño según sea necesario */
+            object-fit: cover;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,14 +30,18 @@
         </nav>
     </header>
 
-    <section id="galeria">
+    <section id="galeria" class="gallery">
         <h2>Galería</h2>
-        <div class="gallery">
-            <img src="img1.jpg" alt="Taylor Swift 1">
-            <img src="img2.jpg" alt="Taylor Swift 2">
-            <img src="img3.jpg" alt="Taylor Swift 3">
-            <img src="img4.jpg" alt="Taylor Swift 4">
-        </div>
+        <img src="https://www.vogue.mx/estilo-de-vida/articulo/taylor-swift-biografia-canciones-y-outfits" alt="Taylor Swift Vogue">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Taylor_Swift_at_the_2024_Golden_Globes_%281%29.png" alt="Taylor Swift Golden Globes 2024">
+        <img src="https://en.wikipedia.org/wiki/Taylor_Swift" alt="Taylor Swift Wikipedia">
+        <img src="https://i.pinimg.com/originals/c2/56/f6/c256f6655f2148435e5ca689d6bec2f3.jpg" alt="Taylor Swift Pinterest">
+        <img src="https://www.disneyplus.com/es-mx/movies/taylor-swift-the-eras-tour-taylors-version/OHLx94HKtS6X" alt="Taylor Swift The Eras Tour">
+        <img src="https://media.gq.com.mx/photos/63e08035efb87ee1d116c327/master/w_2560,c_limit/taylor%2520swift%2520bad%2520bunny-1463298248.jpg" alt="Taylor Swift GQ">
     </section>
+
+    <footer>
+        <p>&copy; 2024 Taylor Swift Fan Page. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
